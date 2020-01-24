@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.page-header {
+    background-color: #183e73;
+    font-family: "Open Sans";
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+
+    /*work on this*/
+    border-bottom: #a1dcee;
+    border-bottom: solid;
+    border-bottom: 2px;
+    
+}
+
+.header2 {
+    background-color: white;
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin-left: 315px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size:18px ;
+}
+
+.paragraph1{
+    margin-left: 315px;
+    font-size: 14px;
+    font-family: Open Sans;
+}
+
+.dognames{
+    font-family: Oswald;
+    font-style: bold;
+    font-size: 14px;
+}
+
+.pictures{
+    max-width: 400px;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: contain;
+   
+    /* .characteristics
+    list-style-type: none;
+    display: inline;*/
+    
+   
+}
+
+.pictures img{
+    width:100%;
+
+}
+
+.new-row{
+    clear: left;
+}
