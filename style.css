@@ -90,38 +90,62 @@ img{
     flex-wrap: wrap;
     /* align-items: stretch; */
     /* flex-direction: row; */
-    /* justify-content: center; */
-    justify-content: space-evenly;
-    margin-left: 300px;
-    margin-right: 300px;
+    justify-content: center;
+    flex-grow: 1 1 33%;
+    /* justify-content: space-evenly; */
+    /* margin-left: 300px;
+    margin-right: 300px; */
     /* height: 400px; */
+    color: white;
+}
     
-    
+.footer-container a {
+    color: white;
+}
     
 }
 
 .footer-box {
     font-family: "Open Sans";
     text-align: center;
-    max-width: 33.33%;
-    height: 400px;
+    /* max-width: 33.33%; */
+    /* height: 400px; */
 
 }
 
 .footer-box img {
-    height: 300px;
+    /* height: 400px; */
+
 }
 
 .donate {
-    /* justify-content: center;
-    align-content: center; */
+    /* add gradient then background image  */
+    background-image: url(starter_files/images/donate.jpg);
+    height: 400px;
+    width: 33%;
+    display: flex;
+    background-size: cover;
+    justify-content: center; 
+    align-items: center; 
     
 }
 
 .volunteer {
-    
+    background-image: url(starter_files/images/volunteer.jpg);
+    height: 400px;
+    display: flex;
+    width: 33%;
+    background-size: cover;
+    justify-content: center; 
+    align-items: center;
 }
 
 .our-location{
-   
+    background-image: url(starter_files/images/location.png);
+    height: 400px;
+    width: 33%;
+    display: flex;
+    background-size: cover;
+    justify-content: center; 
+    align-items: center; 
 }
