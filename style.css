@@ -16,8 +16,8 @@ img{
     font-size: 24px;
     color: white;
     font-weight: bold;
-    margin-left: 300px;
-    margin-right: 300px;
+    /* margin-left: 300px;
+    margin-right: 300px; */
     padding: 20px;
 
     /*work on this*/
@@ -29,25 +29,25 @@ img{
     background-color: white;
     font-family: "Open Sans";
     font-weight: bold;
-    margin-left: 315px;
+    margin-left: 15px;
     margin-bottom: 20px;
     margin-top: 20px;
     font-size:18px ;
 }
 
 .paragraph1{
-    margin-left: 315px;
+    margin-left: 15px;
     font-size: 14px;
     font-family: Open Sans;
 }
 
 .dogs-together{
-    display: flex;
+   display: flex;
    flex-wrap: wrap;
    justify-content: center;
    align-items: flex-start;
-   margin-left: 300px;
-   margin-right: 300px;
+   /* margin-left: 300px;
+   margin-right: 300px; */
   }
 
 
@@ -58,12 +58,12 @@ img{
 }
 
 .dog{
-    max-width: 400px;
-    /*float: left;*/
-    width: 33.33%;
+    max-width: 500px;
+    /* width: 33.33%; */
     padding: 5px;
     height: contain;
     display: inline-block;
+    
 
     }
 
@@ -113,6 +113,8 @@ img{
 }
 
 .donate {
+    /* justify-content: center;
+    align-content: center; */
     
 }
 
