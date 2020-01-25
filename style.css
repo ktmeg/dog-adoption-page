@@ -89,7 +89,7 @@ img{
     flex-wrap: wrap;
     justify-content: center;
     flex-grow: 1 1 33%;
-    font-size: 40px;
+    font-size: 45px;
     font-family: "Oswald";
     font-style: bold; 
 }
@@ -101,9 +101,8 @@ img{
 
 
 .donate {
-    background-image: linear-gradient( rgba(123, 101 , 189, .5), rgba(123, 101, 189, .5)), center, cover;
-    background-image: url(starter_files/images/donate.jpg);
-    height: 400px;
+    background-image: linear-gradient( rgba(72, 19, 231, 0.4), rgba(72, 19, 231, 0.4)), url(starter_files/images/donate.jpg);
+    height: 350px;
     width: 33%;
     display: flex;
     background-size: cover;
@@ -112,9 +111,8 @@ img{
 }
 
 .volunteer{
-    background-image: linear-gradient( rgba(123, 101, 189, 0.5), rgba(123, 101, 189, 0.5)), center, cover;
-    background-image: url(starter_files/images/volunteer.jpg);
-    height: 400px;
+    background-image: linear-gradient( rgba(72, 19, 231, 0.4), rgba(72, 19, 231, 0.4)), url(starter_files/images/volunteer.jpg);
+    height: 350px;
     display: flex;
     width: 33%;
     background-size: cover;
@@ -123,9 +121,8 @@ img{
 }
 
 .our-location{
-    background-image: linear-gradient( rgba(123, 101, 189, 0.5), rgba(123, 101, 189, 0.5)), center, cover;
-    background-image: url(starter_files/images/location.png);
-    height: 400px;
+    background-image: linear-gradient( rgba(72, 19, 231, 0.4), rgba(72, 19, 231, 0.4)), url(starter_files/images/location.png);
+    height: 350px;
     width: 33%;
     display: flex;
     background-size: cover;
