@@ -53,8 +53,8 @@ img{
 
 .dognames{
     font-family: Oswald;
-    font-style: bold;
-    font-size: 15px;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 .dog{
@@ -82,6 +82,7 @@ img{
     margin: 4px;
     border-radius: 30px;
     display: inline-block;
+    font-size: 12px;
 }
 
 .footer-container {
